@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.field{
+  background: #f5f5f5;
+  padding: 40px 20px;
+}
+.note{
+  text-align: center;
+  padding: 30px 0;
+  color: #0379CE;
+  border-bottom: 1px solid #D05E0E;
+}
+.field input, .field select{
+  border-radius: 15px;
+  height: 45px;
+}
+.field a{
+  margin-left: 5px;
+}
+.signup-btn{
+  background: #D05E0E;
+  border: none;
+  color: white;
+  font-size: 25px;
+  margin:  15px 0;
+  border-radius: 20px;
+}
+.signup-btn:hover{
+  background: white;
+  color: #D05E0E;
+  border: 1px solid #D05E0E;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  transition: .5s;
+}
+
+.radio-inline input{
+  height: 13px !important;
+  margin-right: 5px;
+}
+.form .form-control { 
+  margin-bottom: 20px; 
+}
